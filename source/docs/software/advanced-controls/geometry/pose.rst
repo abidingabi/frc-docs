@@ -15,7 +15,7 @@ Rotation
 
 Rotation in 2 dimensions is representated by WPILib's ``Rotation2d`` class (`Java <https://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/geometry/Rotation2d.html>`__, `C++ <https://first.wpi.edu/FRC/roborio/release/docs/cpp/classfrc_1_1Rotation2d.html>`__). This class has an angle component, which represents the robot's rotation relative to an axis on a 2-dimensional coordinate system. Positive rotations are counterclockwise.
 
-.. note:: ``Rotation2d`` uses the C++ Units library. The contructor in Java accepts either the angle in radians, or the sine and cosine of the angle, but the ``fromDegrees`` method will construct a ``Rotation2d`` object from degrees.
+.. note:: ``Rotation2d`` uses the C++ Units library. The constructor in Java accepts either the angle in radians, or the sine and cosine of the angle, but the ``fromDegrees`` method will construct a ``Rotation2d`` object from degrees.
 
 Pose
 ----
